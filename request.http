@@ -1,0 +1,27 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Caneta amarela",
+    "price": 3.50
+}
+
+###
+GET http://localhost:4002/products
+
+
+###
+GET http://localhost:4002/products/92ea7a48-14a6-4a5d-b67f-6fba5a834244
+
+###
+PUT http://localhost:4002/products/ff332194-72ed-4978-9ec3-dfbf146d3106
+Content-Type: application/json
+
+{
+    "name" : "Cartolina azul",
+    "price": 1.00
+
+}
+
+###
+DELETE http://localhost:4002/products/7a25ec23-6f6e-47e8-9187-649afc5b3315
